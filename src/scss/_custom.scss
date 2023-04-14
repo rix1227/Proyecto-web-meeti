@@ -1,0 +1,22 @@
+/*ARCHIVO PARA MODIFICAR LAS VARIABLES DE BOOSTRAP SEGUN SEA NECESARIO*/
+
+/*Reescribir variables de bootstrap*/
+$rojo: #f34f51;
+$verde: #0098ae;
+$oscuro: #212121;
+
+//Asigar paleta de colores a BS
+$primary: $rojo;
+$secondary: $verde;
+$dark: $oscuro;
+
+/* TIPOGRAFIA */
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+
+
+
+/* IMPORTAR BS*/
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
