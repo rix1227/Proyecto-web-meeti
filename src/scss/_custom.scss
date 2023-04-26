@@ -4,6 +4,7 @@
 $rojo: #f34f51;
 $verde: #0098ae;
 $oscuro: #212121;
+$gris :#b5b5b5;
 
 //Asigar paleta de colores a BS
 $primary: $rojo;
@@ -14,7 +15,15 @@ $dark: $oscuro;
 $display-font-weight: 900;
 $headings-font-weight: 700;
 
+/*NAV LINK*/
 
+
+$nav-link-padding-x:                0;
+$nav-link-color:                    $gris;                    
+$nav-link-hover-color:              darken($gris, 10%);
+
+/** CARDS**/
+$card-border-color: transparent;
 
 
 /* IMPORTAR BS*/
